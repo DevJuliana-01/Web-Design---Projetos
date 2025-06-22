@@ -5,14 +5,25 @@
     background-color: #FECEBA;
 }
 
-li {
+li{
     list-style-type: none;
+}
+
+h2{
+    font-family: "Frijole", system-ui;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
 }
 
 header{
     display: flex;
     align-items: flex-start;
-    gap: 13em;
+    gap: 11em;
     border-bottom: solid 1px black;
 }
 
@@ -44,8 +55,8 @@ nav ol li{
 
 ol li a{
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-family: "Frijole", system-ui;
+    font-size: 16px;
     color: black;
 }
 
@@ -59,14 +70,22 @@ ol li a:hover{
     text-align: center;
 }
 
+
 section{
     margin-top: 3em;
     margin-left: 10em;
     margin-right: 10em;
 }
 
-section ul {
+section ul{
     display: flex;
     align-items: center;
     gap: 2em;
+}
+
+footer address{
+    background-color: #B05520;
+    padding-bottom: 2em;
+    text-align: center;
+    font-weight: bold;
 }
