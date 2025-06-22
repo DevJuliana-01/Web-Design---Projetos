@@ -2,4 +2,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #FECEBA;
+}
+
+li {
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+    gap: 13em;
+    border-bottom: solid 1px black;
+}
+
+h1{
+    margin-left: 2em;
+}
+
+h1 img{
+    width: 70%;
+}
+
+header figure{
+    margin-right: 2em;
+}
+
+header figure img{
+    width: 80%;
+}
+
+nav{ 
+    margin-top: 3em;
+}
+
+nav ol li{
+    display: inline-block;
+    align-items: center;
+    margin-right: 5em;
+}
+
+ol li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+ol li a:hover{
+    font-weight: bolder;
+    border-bottom: solid 3px #B05520;
+}
+
+.secao1{
+    margin-top: 2em;
+    text-align: center;
+}
+
+section{
+    margin-top: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+section ul {
+    display: flex;
+    align-items: center;
+    gap: 2em;
 }
