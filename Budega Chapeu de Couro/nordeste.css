@@ -83,6 +83,21 @@ section ul{
     gap: 2em;
 }
 
+article{
+    margin-top: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+
+table tr td{
+    align-items: center;
+}
+
+footer{
+    margin-top: 2em;
+}
+
 footer address{
     background-color: #B05520;
     padding-bottom: 2em;
