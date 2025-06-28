@@ -154,6 +154,27 @@ aside h2{
     color: white;
 }
 
+.contato{
+    margin-top: 3em;
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+.contato li{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    background-color: #B05520;
+    border-radius: 10px;
+    border: solid #B05520 5px;
+}
+
+.contato li img, .contato li p{
+    background-color: #B05520;
+    color: white;
+
+}
+
 footer{
     margin-top: 2em;
 }
