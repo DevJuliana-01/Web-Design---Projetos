@@ -89,6 +89,55 @@ article{
     margin-right: 3em;
 }
 
+.cardapio {
+    display: flex;
+    align-items: flex-start;
+    gap: 5em;
+    text-align: left;
+}
+
+.cardapio li{
+    border: 10px solid #B05520;
+    border-radius: 10px;
+    background-color: #B05520;
+    
+}
+
+.cardapio li p{
+    font-weight: 600;
+    color: white;
+}
+
+.cardapio li img, .cardapio li p{
+    background-color: #B05520;
+}
+
+aside{ 
+    margin-top: 7em;
+    display: flex;
+    align-items: flex-start;
+    gap: 11em;
+    align-items: center;
+}
+
+aside figure img{
+    width: 120%;
+    margin-left: 3em;
+}
+
+aside h2{
+    background-color: #B05520;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    border: solid 1px #B05520;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2)
+}
+
 footer{
     margin-top: 2em;
 }
